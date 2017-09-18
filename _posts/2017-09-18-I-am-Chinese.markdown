@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "他是狗，你们便是苟奴隶"
-subtitle:   ""
+title:      "勿忘国耻"
+subtitle:   "振兴中华"
 date:       2017-09-18 12:00:00
 author:     "SSUN"
-header-img: "![](http://old.cicphoto.com/newcicsite/syxy/tj/201408/W020140827418493810536.jpg)"
+header-img:"img/in-post/post-chinese.jpg"
 ---
 
 > 在知乎被删帖，我理解知乎。  
@@ -18,4 +18,4 @@ header-img: "![](http://old.cicphoto.com/newcicsite/syxy/tj/201408/W020140827418
 
 
 我们甚至忘记了今天是什么日子！
-[jane-eyre-pic]: http://old.cicphoto.com/newcicsite/syxy/tj/201408/W020140827418493810536.jpg![](http://old.cicphoto.com/newcicsite/syxy/tj/201408/W020140827418493810536.jpg)
+![](http://old.cicphoto.com/newcicsite/syxy/tj/201408/W020140827418493810536.jpg)
