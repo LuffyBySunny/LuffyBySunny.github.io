@@ -4,7 +4,7 @@ title:      "他是狗，你们便是苟奴隶"
 subtitle:   ""
 date:       2017-09-18 12:00:00
 author:     "SSUN"
-header-img: "[图片]: http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba7105e1d7507.jpg "
+header-img: "![](http://old.cicphoto.com/newcicsite/syxy/tj/201408/W020140827418493810536.jpg)"
 ---
 
 > 在知乎被删帖，我理解知乎。  
