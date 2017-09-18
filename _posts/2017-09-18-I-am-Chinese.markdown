@@ -1,10 +1,12 @@
 ---
 layout:     post
 title:      "勿忘国耻"
-subtitle:   "振兴中华"
+subtitle:   ""
 date:       2017-09-18 12:00:00
 author:     "SSUN"
 header-img:"img/in-post/post-chinese.jpg"
+header-mask: 0.3
+
 ---
 
 > 在知乎被删帖，我理解知乎。  
