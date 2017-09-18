@@ -11,12 +11,16 @@ header-img: "img/in-post/Android.jpg"
 > 
 > 思路跟不上作者，对代码的结构还不是很了解，根本就不懂一些方法的重写到底有什么用。
 > 
-> 刚开始接触 Adapter的时候感觉很神奇，自定义Adapter可以让List的加载更加多样化。
+> 刚开始接触 Adapter的时候感觉很神奇，自定义Adapter可以让List的布局更加多样化。
 ><br/>
 >
 >ViewHolder的使用提高了ListView和RecyclerView的加载效率。
+
+
+
 ## 准备工作 
 RecyclerView定义在了support库中，所以要在app.gradle中添加相应的依赖库，在dependencies添加
+
 > compile 'com.android.support:recyclerview-v7:25.3.1'
 
 
@@ -58,6 +62,9 @@ RecyclerView定义在了support库中，所以要在app.gradle中添加相应的
 
         }
     }
+
+
+
 ViewHolder的构造函数中要传入一个View参数，通常是RecyclerView子项的最外层布局，然后可以通过findviewById()方法获得布局中的控件，因此可以避免重复加载控件
 
 > FruitAdapter的构造函数，传入一个List,指定泛型为Fruit,参数为获取的要显示的对象的List实例
