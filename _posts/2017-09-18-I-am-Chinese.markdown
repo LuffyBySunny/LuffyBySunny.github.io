@@ -4,7 +4,7 @@ title:      "勿忘国耻"
 subtitle:   ""
 date:       2017-09-18 12:00:00
 author:     "SSUN"
-header-img:"img/in-post/post-chinese.jpg"
+header-img:""
 header-mask: 0.3
 
 ---
