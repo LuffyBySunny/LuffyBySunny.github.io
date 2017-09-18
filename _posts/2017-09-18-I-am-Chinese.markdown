@@ -18,4 +18,4 @@ header-img: "[图片]: http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04d
 
 
 我们甚至忘记了今天是什么日子！
-[jane-eyre-pic]: http://old.cicphoto.com/newcicsite/syxy/tj/201408/W020140827418493810536.jpg
+[jane-eyre-pic]: http://old.cicphoto.com/newcicsite/syxy/tj/201408/W020140827418493810536.jpg![](http://old.cicphoto.com/newcicsite/syxy/tj/201408/W020140827418493810536.jpg)
