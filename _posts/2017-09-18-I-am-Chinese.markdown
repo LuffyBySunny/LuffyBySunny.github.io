@@ -3,8 +3,8 @@ layout:     post
 title:      "他是狗，你们便是苟奴隶"
 subtitle:   ""
 date:       2017-09-18 12:00:00
-author:     "Hux"
-header-img: "http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba7105e1d7507.jpg "
+author:     "SSUN"
+header-img: "[图片]: http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba7105e1d7507.jpg "
 ---
 
 > 在知乎被删帖，我理解知乎。  
@@ -18,3 +18,4 @@ header-img: "http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba710
 
 
 我们甚至忘记了今天是什么日子！
+[jane-eyre-pic]: http://img3.douban.com/mpic/s1108264.jpg
