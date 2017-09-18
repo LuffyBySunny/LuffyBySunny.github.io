@@ -1,6 +1,6 @@
 ---
 layout:		post
-title:		"RecycklerView基本用法"
+title:		"RecyclerView基本用法"
 subtitle:		"自定义Adapter的用法"
 date:		2017-09-18 12:00:00
 author:		"Droodsunny"
@@ -23,7 +23,7 @@ RecyclerView定义在了support库中，所以要在app.gradle中添加相应的
 ## 自定View的布局
 > 首先新建一个xml文件，作为加载的布局，例如新建fruits_item.xml  
 > 包括两个控件，一个是图片，一个是文本
-> 
+ 
 	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
@@ -40,7 +40,7 @@ RecyclerView定义在了support库中，所以要在app.gradle中添加相应的
       android:layout_height="wrap_content" />
 	</LinearLayout>
 
-><br>
+
 
 **然后为RecyclerView准备一个适配器**,新建FruitAdapter类，继承RecyclerView.Adapter,将泛型指定为FruitAdapter.ViewHolder。ViewHolder为FruitAdapter的内部类
 
@@ -68,9 +68,9 @@ ViewHolder的构造函数中要传入一个View参数，通常是RecyclerView子
 
 >重写onCreatViewHolder方法，用于创建ViewHolder实例，在这个方法中加载自定义布局，然后创建ViewHolder实例，并把加载出来的布局传入到构造函数,而且可以在这设置控件的监听事件,最后将ViewHolder的实例返回
 >
->
+
 	   @Override
->      public FruitAdapter.ViewHolider onCreateViewHolder(ViewGroup parent, int viewType) {
+      public FruitAdapter.ViewHolider onCreateViewHolder(ViewGroup parent, int viewType) {
         View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.fruit_item,parent,false);
         final ViewHolider holider=new ViewHolider(view);
         holider.fruitview.setOnClickListener(new View.OnClickListener() {
@@ -92,7 +92,7 @@ ViewHolder的构造函数中要传入一个View参数，通常是RecyclerView子
         return holider;
     }
 
-><br/>
+
 
 
 重写onBindViewHolder方法，对RecyclerView的子项进行赋值，会在每个子项滚动到屏幕内部时执行,通过position参数得到当前项的实例，然后在ViewHolder的控件里设置数据。
@@ -113,9 +113,8 @@ getItemCount 用于告诉RecyclerView有多少个子项，直接返回数据源�
         return mFruitList.size();
     }
 
-
 # 运行结果如图
-![](https://github.com/LuffyBySunny/LuffyBySunny.github.io/blob/master/img/in-post/result.png)
+![](https://raw.githubusercontent.com/LuffyBySunny/LuffyBySunny.github.io/master/img/in-post/result.png)
 
 
 
