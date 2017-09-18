@@ -3,8 +3,8 @@ layout:     post
 title:      "他是狗，你们便是苟奴隶"
 subtitle:   ""
 date:       2017-06-24 12:00:00
-author:     "Hux"
-header-img: ""
+author:     "Mandy"
+header-img: "img/in-post/post-chinese.jpg"
 ---
 
 > 在知乎被删帖，我理解知乎。  
