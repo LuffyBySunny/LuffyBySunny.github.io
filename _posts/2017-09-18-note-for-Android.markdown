@@ -27,30 +27,33 @@ RecyclerView定义在了support库中，所以要在app.gradle中添加相应的
 ## 自定View的布局
 > 首先新建一个xml文件，作为加载的布局，例如新建fruits_item.xml  
 > 包括两个控件，一个是图片，一个是文本
- 
-	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-	<ImageView
-    android:id="@+id/fruit_image"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
-    <TextView
-      android:id="@+id/fruit_name"
-      android:layout_marginLeft="10dp"
-      android:layout_gravity="center_vertical"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content" />
-	</LinearLayout>
+
+
+``` xml
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="horizontal"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content">
+<ImageView
+   android:id="@+id/fruit_image"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" />
+   <TextView
+   android:id="@+id/fruit_name"
+   android:layout_marginLeft="10dp"
+   android:layout_gravity="center_vertical"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" />
+</LinearLayout>
+```
 
 
 
 **然后为RecyclerView准备一个适配器**,新建FruitAdapter类，继承RecyclerView.Adapter,将泛型指定为FruitAdapter.ViewHolder。ViewHolder为FruitAdapter的内部类
 
 **ViewHolder类的构造**  
-
-	static class ViewHolider extends RecyclerView.ViewHolder{
+``` java
+static class ViewHolider extends RecyclerView.ViewHolder{
         View fruitview;
          ImageView fruitimage;
         TextView fruitname;
@@ -59,12 +62,9 @@ RecyclerView定义在了support库中，所以要在app.gradle中添加相应的
             fruitview=itemView;
             fruitimage=(ImageView)itemView.findViewById(R.id.fruit_image);
             fruitname=(TextView)itemView.findViewById(R.id.fruit_name);
-
         }
     }
-
-
-
+```
 ViewHolder的构造函数中要传入一个View参数，通常是RecyclerView子项的最外层布局，然后可以通过findviewById()方法获得布局中的控件，因此可以避免重复加载控件
 
 > FruitAdapter的构造函数，传入一个List,指定泛型为Fruit,参数为获取的要显示的对象的List实例
