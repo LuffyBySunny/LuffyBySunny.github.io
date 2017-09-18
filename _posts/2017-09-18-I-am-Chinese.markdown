@@ -2,7 +2,7 @@
 layout:     post
 title:      "勿忘国耻，振兴中华"
 subtitle:   ""
-date:       2017-06-24 12:00:00
+date:       2017-09-18 12:00:00
 author:     "Mandy"
 header-img: "img/in-post/post-chinese.jpg"
 ---
