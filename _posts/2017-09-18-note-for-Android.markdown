@@ -115,7 +115,7 @@ getItemCount 用于告诉RecyclerView有多少个子项，直接返回数据源�
 
 
 # 运行结果如图
-![Fruit](img/in-post/result.png)
+![](img/in-post/result.png)
 
 
 
