@@ -12,6 +12,7 @@ header-img: ""
 >首先新建一个链表的结点类,包含两个字段
 
 
+
 ```java
 public class Node {
 	public int data;
@@ -19,6 +20,9 @@ public class Node {
 }
 ```
 >然后新建一个单链表的类,包含四个字段
+
+
+
 ```java
     public Node head, tail; // 都声明为公开成员
 	public int size = 0; // 这是一个派生数据，冗余数据，
