@@ -4,7 +4,7 @@ title:		"链表的基本用法"
 subtitle:		"java语言"
 date:		2017-09-20 12:00:00
 author:		"Droodsunny"	
-header-img:""
+header-img: ""
 ---
 
 >可以说学了两年的编程语言了，但是对指针和链表的操作依然很糊涂，好在Java中没有了指针，最近看到有一位大神学姐说如果面试的时候连链表的倒置与合并都不会就太尴尬了，所以在这里，第一次用Java完成链表的操作，可能认识很短浅，温故而知新。
@@ -35,6 +35,22 @@ public void clear() { // 清空单链表，回到单链表的初始状态
 		head = tail = null;
 		size = 0;
 	}
+```
+## 头插法
+```java
+public void addhead(int data){
+		Node n= new Node();
+		n.data=data;
+		if (size == 0) { // 如果链表为空，没有一个元素
+			head = n; // head，tail都指向这个元素就可以了
+			tail = n;
+		} else {
+		n.next=head;
+		head=n;
+		}
+		size++;
+	}
+
 ```
 ## 尾插法
 ```java
