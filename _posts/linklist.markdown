@@ -172,4 +172,17 @@ public void printFirst() { // 输出头节点元素信息
 		}
 	}
 ```
-
+## 反转链表
+``` java
+public void Reverse(Node n){
+		Node next = null;
+		Node prev=null;
+		while(n!=null){
+			next=n.next;
+			n.next=prev;
+			prev=n;
+			n=next;
+		}
+		head=prev;
+	}
+```
