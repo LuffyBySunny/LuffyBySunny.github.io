@@ -120,6 +120,14 @@ getItemCount 用于告诉RecyclerView有多少个子项，直接返回数据源�
         return mFruitList.size();
     }
 
+>在主函数中注意给RecyclerView指定布局方式
+
+
+```java
+  RecyclerView recyclerView=(RecyclerView) findViewById(R.id.recycler);
+  LinearLayoutManager layoutLayoutmanager=new LinearLayoutManager(this);
+  recyclerView.setLayoutManager(layoutLayoutmanager);
+```
 # 运行结果如图
 ![](https://raw.githubusercontent.com/LuffyBySunny/LuffyBySunny.github.io/master/img/in-post/result.png)
 
