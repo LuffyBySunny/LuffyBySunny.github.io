@@ -41,6 +41,6 @@ public abstract class AsyncTask<Params, Progress, Result> {
 ## 启动任务
 **excute(Params...)** 参数与doInBackground中的参数相同。 
 
-[详细代码](https://github.com/LuffyBySunny/DownloadService)
+[详细代码](https://github.com/LuffyBySunny/DownloadService/blob/master/app/src/main/java/com/Util/DownloadTask.java)
 
 
