@@ -7,7 +7,7 @@ author:		"Droodsunny"
 header-img: "img/in-post/Android.jpg"
 tags:
     - Android
----
+
 ---
 
 
