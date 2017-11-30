@@ -1,13 +1,13 @@
 ---
 layout:		post
-title:		"第一次试用"git配置
-subtitle:		"Handler、Message、Looper"
+title:		"第一次使用"git配置
+subtitle:		""
 date:		2017-11-30 12:00:00
 author:		"Droodsunny"
 header-img: "img/in-post/Android.jpg"
 
 tags:
-    - Git
+    - GitHub
 ---
 > 第一次配置Git的简单步骤
 
