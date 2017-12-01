@@ -1,7 +1,7 @@
 ---
-layout:   	post
-title:    	"第一次使用"git配置
-subtitle:		"gitgitgit"
+layout:		post
+title:		"Android的Message机制"
+subtitle:		"Handler、Message、Looper"
 date:		2017-11-30 12:00:00
 author:		"Droodsunny"
 header-img: "img/in-post/Android.jpg"
