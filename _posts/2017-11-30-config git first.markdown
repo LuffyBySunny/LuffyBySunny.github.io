@@ -7,7 +7,7 @@ author:		"Droodsunny"
 header-img: "img/in-post/Android.jpg"
 
 tags:
-    - GitHub
+    - Android
 ---
 > 第一次配置Git的简单步骤
 
