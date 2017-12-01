@@ -1,13 +1,13 @@
 ---
 layout:		post
-title:		"Android的Message机制"
-subtitle:		"Handler、Message、Looper"
+title:		"Git配置"
+subtitle:		"gitgitgit"
 date:		2017-11-30 12:00:00
 author:		"Droodsunny"
-header-img: "img/in-post/Android.jpg"
+header-img: "img/in-post/git.jpg"
 
 tags:
-    - Android
+    - Git
 ---
 
 > 第一次配置Git的简单步骤
