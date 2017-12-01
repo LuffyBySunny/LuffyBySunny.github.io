@@ -1,7 +1,7 @@
 ---
-layout:		post
-title:		"第一次使用"git配置
-subtitle:		""
+layout:   post
+title:    "第一次使用"git配置
+subtitle:		"gitgitgit"
 date:		2017-11-30 12:00:00
 author:		"Droodsunny"
 header-img: "img/in-post/Android.jpg"
